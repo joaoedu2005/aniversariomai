@@ -157,9 +157,9 @@ const GallerySection = ({ t }: { t: any }) => {
   // Placeholder images - Replace these with your real image URLs
   // Images served from public/ to ensure they're copied to `dist` during build
   const photos = [
-    "fotonossa1.jpeg",
-    "fotonossa2.jpeg",
-    "fotonossa3.jpeg"
+    "public/fotonossa1.jpeg",
+    "public/fotonossa2.jpeg",
+    "public/fotonossa3.jpeg"
   ];
 
   return (
