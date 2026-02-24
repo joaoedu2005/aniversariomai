@@ -4,6 +4,7 @@ import { PixelHeart, PixelCat, PixelBurger, PixelPizza, PixelPudding, PixelSoda,
 import { translations, Language } from './translations';
 import { playClickSound, playTypeSound, playJumpSound, playCollectSound, playHitSound, playHoverSound } from './utils/audio';
 
+
 // --- Utility Components ---
 
 const PixelCard = ({ children, className = "", title }: { children: React.ReactNode, className?: string, title?: string }) => (
@@ -157,9 +158,9 @@ const GallerySection = ({ t }: { t: any }) => {
   // Placeholder images - Replace these with your real image URLs
   // Images served from public/ to ensure they're copied to `dist` during build
   const photos = [
-    "src/fotonossa1.jpeg",
-    "src/fotonossa2.jpeg",
-    "src/fotonossa3.jpeg"
+    "assets/fotonossa1.jpeg",
+    "assets/fotonossa2.jpeg",  
+    "assets/fotonossa3.jpeg"
   ];
 
   return (
